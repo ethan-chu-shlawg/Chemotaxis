@@ -3,10 +3,10 @@ Walker[] carl;
 void setup()
 {
   size(500,500);
-  carl = new Walker[3000];
+  carl = new Walker[300];
   for(int i = 0; i<carl.length; i++)
     carl[i] = new Walker(0);
-  bob = new Walker[1500];
+  bob = new Walker[150];
   frameRate(1999);
   for(int i = 0; i<bob.length; i++)
     bob[i] = new Walker((int)(Math.random()*100+150));
